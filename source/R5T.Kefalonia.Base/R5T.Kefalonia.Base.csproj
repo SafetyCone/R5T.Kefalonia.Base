@@ -5,7 +5,7 @@
     <NoWarn>1701;1702;1591;1573</NoWarn>
   </PropertyGroup>
   <ItemGroup>
+    <ProjectReference Include="..\..\..\R5T.D0013\source\R5T.D0013.Base\R5T.D0013.Base.csproj" />
     <ProjectReference Include="..\..\..\R5T.Gloucester.Types\source\R5T.Gloucester.Types\R5T.Gloucester.Types.csproj" />
-    <ProjectReference Include="..\..\..\R5T.Megara.Base\source\R5T.Megara.Base\R5T.Megara.Base.csproj" />
   </ItemGroup>
 </Project>
