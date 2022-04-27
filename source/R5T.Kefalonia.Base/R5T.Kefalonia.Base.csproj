@@ -7,5 +7,6 @@
   <ItemGroup>
     <ProjectReference Include="..\..\..\R5T.D0013\source\R5T.D0013.Base\R5T.D0013.Base.csproj" />
     <ProjectReference Include="..\..\..\R5T.Gloucester.Types\source\R5T.Gloucester.Types\R5T.Gloucester.Types.csproj" />
+    <ProjectReference Include="..\..\..\R5T.T0064\source\R5T.T0064\R5T.T0064.csproj" />
   </ItemGroup>
 </Project>

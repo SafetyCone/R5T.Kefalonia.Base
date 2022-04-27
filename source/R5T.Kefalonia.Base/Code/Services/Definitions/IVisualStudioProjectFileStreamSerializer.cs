@@ -1,13 +1,13 @@
-﻿using System;
+using System;
 using System.IO;
 using System.Threading.Tasks;
 
-using R5T.Gloucester.Types;
+using R5T.Gloucester.Types;using R5T.T0064;
 
 
 namespace R5T.Kefalonia
-{
-    public interface IVisualStudioProjectFileStreamSerializer
+{[ServiceDefinitionMarker]
+    public interface IVisualStudioProjectFileStreamSerializer:IServiceDefinition
     {
         /// <summary>
         /// Includes both <paramref name="stream"/> and <paramref name="projectFilePath"/> since project reference relative file paths will need to be made absolute.
